@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,800;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+  padding: 156px 136px 156px 135px;
+  min-height: 100vh;
+  background: #fdf0e9;
+}
+.box1{
+    margin-right: 130px;
+}
+.box1 h1 {
+    margin-bottom: 17px;
+  color: var(--Text_Dark_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.box1 h2 {
+    margin-bottom: 31px;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.box1 p {
+    width: 470px;
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.box1 a {
+    margin-bottom: 100px;
+ text-decoration: none;
+ color: var(--Text_Dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+
+.white {
+    padding: 41px 50px 44px 50px;
+    width: 570px;
+height: 273px;
+    border-radius: 6px 6px 0px 0px;
+border: 1px solid #F3D1BF;
+background: #FFF;
+box-shadow: 0px 32px 64px 0px rgba(57, 20, 0, 0.04);
+}
+
+.white h1 {
+    margin-top: 50px;
+    color: var(--Text_Dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+
+}
+
+.white p {
+    width: 470px;
+    color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+
+.box2 ul li{
+    width: 570px;
+height: 113px;
+    border-radius: 0px 0px 6px 6px;
+border: 1px solid #F3D1BF;
+    color: var(--Text_Dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px
+}
